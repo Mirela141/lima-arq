@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="formulario">
+    <form method="post" action="processar.php">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="nome">Nome Completo</label>
+            <input type="text" name="nome" id="name " required>
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+
+            <br><br>
+
+            <label for="idade">Idade</label>
+            <input type="number" name="idade" id="idade" min="18" max="120">
+
+            <br><br> i like dikcs
+
+
+
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" required>
+        </fieldset>
+        
+        <br><br>
+
+        <fieldset>
+            <legend>Termos</legend>
+            <label for="Termos">
+                <input type="checkbox" name="termos" id="termos" required>
+                Aceito os termos e condiçoes
+            </label>
+        </fieldset>
+
+        <br><br>
+
+        <button type="submit">Cadastrar</button>
+        <button type="reset">limpar</button>
+    </form>
+</div>
+
+
+</body>
+</html>
